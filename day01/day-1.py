@@ -4,6 +4,8 @@
 # ///
 
 
+example=open("input.example.txt")
+print(example.read().split('\n'))
 def main() -> None:
     print("Hello from day-1.py!")
 
